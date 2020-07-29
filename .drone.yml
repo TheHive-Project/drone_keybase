@@ -26,7 +26,7 @@ steps:
       - master
 
   - name: send message
-    image: migueldo/keybase
+    image: thehiveproject/drone_keybase
     settings:
       username: {from_secret: keybase_username}
       paperkey: {from_secret: keybase_paperkey}
